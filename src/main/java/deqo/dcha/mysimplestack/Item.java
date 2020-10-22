@@ -11,4 +11,13 @@ public class Item {
     public void setItem(Item item, int nItem){
         item.number = nItem;
     }
+
+    public boolean isEmpty(Item item){
+        if(item!=null){
+            return false;
+        }
+        else {
+            return true;
+        }
+    }
 }
