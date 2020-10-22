@@ -12,6 +12,7 @@ public class Item {
         item.number = nItem;
     }
 
+    //Test si Item est vide
     public boolean isEmpty(Item item){
         if(item!=null){
             return false;
